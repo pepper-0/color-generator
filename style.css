@@ -1,10 +1,30 @@
+@font-face {
+    font-family: "normal";
+    src: url("./font/NoVirus-RpyYo.ttf") format("truetype");
+}
+
 html {
+    font-family: 'Optima', 'Segoe UI', 'Candara', 'Helvetica', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     font: 20px Arial, sans-serif;
 }
 
+h1 {
+    font-family: "normal", Arial, sans-serif;
+    font-size: 40px;
+    margin: 10px;
+    color: #4c3d1f;
+}
+
+h3 {
+    font-size: 20px; 
+    font-family: "Courier", Arial, sans-serif;
+    color: #4c3d1f;
+}
+
 body {
+    margin-top: 200px;
     background-color: #e3dacb;
     background-size: 40px 40px;
     background-image: 
@@ -29,15 +49,22 @@ main {
     width: fit-content;
     height: 20%;
     margin: auto;
+    text-align: center;
 }
 
 #alert-message {
-    /*display: none;*/
+    display: none;
     width: fit-content;
     margin: auto;
     border-radius: 30px;
-    padding: 15px;
-    background-color: #8a43437f;  
+    padding: 10px;
+    background-color: #8a43437f;
+    font-family: "Courier New", Arial, sans-serif;
+    font-size: 14px;
+    border-color: #845050;
+    border-width: 2px;
+    border-style: solid;
+
 }
 
 #button-container {
@@ -49,7 +76,10 @@ main {
 }
 
 #color-displays-container {
+    font-family: "Courier New", Arial, sans-serif;
+    font-weight: bold;
     display: flex;
+    color: #342912;
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
@@ -65,20 +95,27 @@ main {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    border-color: #34291252;
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
-    border-color: gray;
     background-color: white;
 }
 
 button {
+    font-family: "normal", Arial, sans-serif;
+    font-size: 16px;
     margin: 10px;
     border-radius: 30px;
     padding: 15px;
+    color:#4c3d1f;
+    background-color:#e3dacb;
+    border: 2px solid #b7ac9c;
+    box-shadow: #b7ac9c 3px 4px 2px;
 }
+
 
 button:hover {
     cursor: pointer;
-    background-color: gray;
+    background-color: #c7bdaa;
 }
