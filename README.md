@@ -19,9 +19,10 @@ simple color palette/hue generator! a quick mini project speedrun [![Athena Awar
 
 ### *future features to be added*
 - auto copy into clipboard
-- 
+- color "locking"
+- algorithm that makes sure all colors are unique and are cohesive in the color palette instead of 100% randomized
 
 ### *help me make this better!!*
 [always down for suggestions and help <3](https://github.com/pepper-0/color-generator/issues)
 
-### last updated 10/31/25
+### last updated 11/1/25
