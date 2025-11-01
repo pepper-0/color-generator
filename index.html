@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color generator</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div id = "title-container">
+        <h1>color generator</h1>
+        <h3>click "generate!" to create random colors</h3>
+        <button id = "generate-button" onClick = "generateColorPalette()">generate!</button>
+        <div id = "alert-message"></div>
+    </div>
+    <div id = "button-container">
+        <button id = "add-display" onClick = "addColorDisplay()">add another color</button>
+        <button id = "remove-display" onClick = "removeColorDisplay()">remove a color</button>
+    </div>
+    
+    <div id = "color-displays-container">
+        <div id = "color-box-1" class = "color-box">
+            <p class = "color-code">#FFFFFF</p>
+        </div>
+        
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
